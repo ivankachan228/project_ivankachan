@@ -46,7 +46,7 @@ while run:
     pipe_group.draw(screen)
 
     # рисуем землю
-    screen.blit(ground_img, (gl.ground_scroll, 420))
+    screen.blit(ground_img, (gl.ground_scroll, gl.sizik))
 
     # проверяем счет
     if len(pipe_group) > 0:
